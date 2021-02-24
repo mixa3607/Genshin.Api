@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<AssemblyName>ArkProjects.Genshin.Api.Game</AssemblyName>
+		<RootNamespace>ArkProjects.Genshin.Api.Game</RootNamespace>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Flurl.Http" Version="3.0.0" />
+		<PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Genshin.Api.Shared\Genshin.Api.Shared.csproj" />
+	</ItemGroup>
+
+</Project>
